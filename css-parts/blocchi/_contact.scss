@@ -1,0 +1,119 @@
+/* Contact form */
+.contact__content{
+    max-width: 1140px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.contact__form{
+    flex-grow: 1;
+    width: 70%;
+}
+.contact__title{
+    margin: 12px;
+    width: 100%;
+    margin-bottom: 48px;
+}
+.contact__input{
+    width: 100%;
+    height: 75px;
+    border-radius: 10px;
+    margin: 12px;
+    padding: 12px;
+}
+.contact__cta{
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.contact__bottoni{
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.contact__btn{
+    cursor: pointer;
+    background-color:$color-primary;
+    border: $color-secondary solid 2px;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin: 12px;
+    color: $color-secondary;
+    text-transform: uppercase;
+    letter-spacing: 2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+	transition: ease-in-out;
+    transition-duration: 0.4s;
+    min-height: 75px;
+    min-width: 330px;
+    max-width: 330px;
+}
+.contact__btn:hover {
+    background-color: $color-secondary;
+    border: $color-primary solid 2px;
+    color: $color-primary;
+}
+
+#invia{
+    max-width: 250px;
+    min-width: 250px;
+}
+
+
+/* Contact form tablet*/
+@media (max-width: 960px){
+    .contact{
+        padding: 12px;
+    }
+    .contact__cta h4{
+        padding-top: 20%;
+    }
+
+}
+/* Contact form mobile */
+@media (max-width: 768px) {
+    .contact__content{
+        flex-direction: column;
+        align-items: center;
+        max-width: 360px;
+    }
+    .contact__form{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .contact__title{
+        text-align: center;
+    }
+    .contact__input{
+        width: 100%;
+        margin: auto;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    #invia{
+        margin: auto;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .contact__cta{
+        margin-left: auto;
+    }
+    .contact__cta h4{
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+}

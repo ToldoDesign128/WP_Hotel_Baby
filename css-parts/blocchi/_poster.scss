@@ -1,0 +1,67 @@
+/* Poster */
+.poster{
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10%;
+}
+.poster__img{
+    max-width: 50%;
+    height: 550px;
+    flex-grow: 1;
+    margin: 12px;
+    background-image: url(img/hotel_baby01.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: $color-secondary solid 3px;
+}
+.poster__text{
+    max-width: 40%;
+    flex-grow: 1;
+    margin-left: 10%;
+    padding: 12px;
+}
+.poster__title{
+    color: $color-third;
+    margin-bottom: 10%;
+}
+.poster__content{
+    color: $color-text;
+    margin-bottom: 5%;
+}
+
+/* Poster tablet*/
+@media (max-width: 960px){
+    .poster{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .poster__text{
+        margin-left: 24px;
+    }
+    .poster__title{
+        font-size: 42px;
+    }
+    .poster__img{
+        max-height: 650px;
+        height: auto;
+    }
+}
+/* Poster mobile */
+@media (max-width: 768px) {
+    .poster{
+        flex-direction: column;
+        margin-top: 20%;
+    }
+    .poster__img{
+        display: none;
+    }
+    .poster__text{
+        max-width: 100%;
+        padding: 24px;
+        margin: 0 0 5% 0;
+    }
+}

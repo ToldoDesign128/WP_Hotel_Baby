@@ -1,0 +1,106 @@
+/* ! Navbar */
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $color-secondary;
+    box-shadow: 0px 0px 10px 1px $color-third;
+    padding: auto;
+    z-index: 1000;
+}
+nav{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu__logo{
+    padding: 12px;
+}
+.menu__logo__link{
+    color: $color-primary;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    font-size: 25px;
+}
+.menu__list{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu__list__item{
+    flex-grow: 1;
+    margin: auto;
+    text-align: right;
+    transition: ease-in-out 0.5s;
+}
+.menu__list__link{
+    color: $color-primary;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+.menu__list__link:hover{
+    color: $color-white;
+}
+.hamburger{
+    display: none;
+}
+
+/* Header tablet */
+@media (max-width: 960px){
+    nav{
+        max-width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+/* Header mobile */
+@media (max-width: 768px){
+
+    header{
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        padding-top: 15vh;
+        transition: ease-in-out;
+        transition-duration: 0.6s;
+        transition-delay: 0.3s;
+        box-shadow: 0px 0px 0px 0px $color-third;
+    }
+    nav{
+        display: block;
+    }
+    .menu__logo{
+        padding-left: 36px;
+    }
+    .menu__list{
+        display: block;
+        margin-top: 15vh;
+        padding-left: 36px;
+    }
+    .menu__list__item{
+        display: block;
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .menu__list__link{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .menu--open{
+        right: 0%;
+    }
+    .menu__hamburger{
+        position: fixed;
+        top: 40px;
+        right: 12px;
+        z-index: 10;
+    }
+    .hamburger{
+        display: block;
+      }
+}

@@ -1,0 +1,110 @@
+/* Pacchetti */
+.pacchetti{
+    overflow: hidden;
+    margin-top: 7%;
+}
+.pacchetti__content{
+    max-width: 1140;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.pacchetti__title{
+    color: $color-third;
+}
+.pacchetti__cards{
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 7%;
+}
+.pacchetti__cards__item{
+    background: $color-secondary;
+    flex-grow: 1;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 24px;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    outline: $color-third solid 3px;
+}
+.pacchetti__cards__item:hover{
+    transform: scale(110%);
+    background: $color-secondary-hover;
+}
+.pacchetti__cards__image{
+    object-fit: cover;
+    height: 100%;
+    flex-grow: 1;
+    border-radius: 10px 0 0 10px;
+    max-width: 30%;
+    outline: $color-third solid 3px;
+}
+.pacchetti__cards__text{
+    flex-grow: 3;
+    margin: 12px;
+    padding: 12px;
+}
+.pacchetti__cards__text h4{
+    text-align: center;
+    color: $color-primary;
+    display: block;
+}
+.pacchetti__cards__text p{
+    text-align: center;
+    color: $color-primary;
+    margin-top: 15%;
+}
+.pacchetti__cards__text__list{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+.pacchetti__cards__text__list li{
+    text-align: center;
+    color: $color-primary;
+    flex-grow: 1;
+    margin: 6px;
+    font-weight: 700;
+}
+
+/* Pacchetti tablet*/
+@media (max-width: 960px){
+    .pacchetti__cards__item{
+        flex-direction: column;
+        height: 100%;
+        width: 40%;
+    }
+    .pacchetti__cards__image{
+        max-width: 100%;
+        max-height: 200px;
+        border-radius: 10px 10px 0 0;
+        object-position: center;
+    }
+    .pacchetti__cards__text{
+        min-height: 360px;
+    }
+}
+/* Pacchetti mobile */
+@media (max-width: 768px) {
+    .pacchetti__cards__item{
+        flex-direction: column;
+        height: 100%;
+    }
+    .pacchetti__cards__image{
+        max-width: 100%;
+        max-height: 200px;
+        border-radius: 10px 10px 0 0;
+        object-position: center;
+    }
+    .pacchetti__cards__text{
+        min-height: 100%;
+    }
+}

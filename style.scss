@@ -1,0 +1,36 @@
+/*
+Theme Name: Hotel Baby
+Theme URI: https://hotelbabymilanomarittima.it/
+Author: Federico Toldo
+Author URI: https://
+Description: Custom theme for Hotel Baby
+Version: 2.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: Private
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hotelbaby
+Custom theme for Hotel Baby 
+*/
+
+
+//variables
+@import "css-parts/variables/color"; 
+
+//base
+@import "css-parts/base"; 
+
+ 
+//blocks
+@import "css-parts/blocchi/contact";
+@import "css-parts/blocchi/404";
+@import "css-parts/blocchi/footer";
+@import "css-parts/blocchi/gallery"; 
+@import "css-parts/blocchi/hero";
+@import "css-parts/blocchi/map";
+@import "css-parts/blocchi/nav";
+@import "css-parts/blocchi/package"; 
+@import "css-parts/blocchi/poster";
+@import "css-parts/blocchi/service";
+

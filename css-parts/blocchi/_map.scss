@@ -1,0 +1,39 @@
+/* Mappa */
+.map{
+    background-color: $color-secondary;
+    padding-top: 5%;
+    width: 100%;
+}
+.map__content{
+    max-width: 1140px;
+    overflow: hidden;
+    margin: auto;
+}
+.map__title{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.map__title h2{
+    color: $color-primary;
+}
+.map__inner iframe{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 5%;
+}
+iframe{
+    border: 0;
+}
+
+/* Map form tablet*/
+@media (max-width: 960px){}
+/* Map form mobile */
+@media (max-width: 768px) {
+    .map__title{
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+    .map__inner iframe{
+        margin-bottom: 20%;
+    }
+}
