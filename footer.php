@@ -12,9 +12,6 @@
                 <a href="#" class="footer__cookie">
                     <h6> Privacy & Cookie </h6>
                 </a>
-                <a href="#" class="#">
-                    <h6> WhatsApp </h6>
-                </a>
 
             </div>   
             
@@ -25,7 +22,10 @@
                     <h6>  info@hotelbaby.com </h6>
                 </a>
                 <a href="#">
-                    <h6> +39 05489614 </h6>
+                    <h6> +39 0544 991784 </h6>
+                </a>
+                <a href="#" class="#">
+                    <h6> WhatsApp </h6>
                 </a>
 
                 <div class="social__icon">
@@ -59,6 +59,8 @@
         </div>
         
     </footer>
+
+    <?php wp_footer() ?>
 
 
 </body>

@@ -13,44 +13,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: hotelbaby
 Custom theme for Hotel Baby 
 */
-/*water-green
-
-$color-primary: #dbfbed;
-$color-secondary: #046865;
-$color-secondary-hover: #21a0a0;
-$color-third: #214540;
-$color-white: #fff;
-$color-text: rgb(15, 15, 15); */
-/*petrolio
-
-$color-primary: #f3f7f6;
-$color-secondary: #354f52;
-$color-secondary-hover: #52796f;
-$color-third: #2f3e46;
-$color-white: #fff;
-$color-text: rgb(15, 15, 15);*/
-/*salvia
-
-$color-primary: #f4f6f4;
-$color-secondary: #73877b;
-$color-secondary-hover: #839788;
-$color-third: #38433a;
-$color-white: #fff;
-$color-text: rgb(15, 15, 15);*/
-/*blu*/
-/*blu - rosa
-
-$color-primary: #fec7d7;
-$color-secondary: #3f61af;
-$color-secondary-hover: #507bdd;
-$color-third: #17274b;
-$color-white: #fff;
-$color-text: rgb(15, 15, 15);*/
 /* ! Base */
 html, body {
   margin: 0;
   overflow-x: hidden;
-  background-color: #fef6e4;
+  background-color: #f9f5f1;
 }
 
 h1, h2, h3, h4, h5, h6, p, li, ul, a {
@@ -173,7 +140,7 @@ li {
   max-width: 1140px;
   overflow: hidden;
   margin: auto;
-  margin-top: 10%;
+  padding-top: 10%;
   margin-bottom: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -242,14 +209,14 @@ li {
 
 .contact__btn {
   cursor: pointer;
-  background-color: #fef6e4;
-  border: #172c66 solid 2px;
+  background-color: #f9f5f1;
+  border: #B49889 solid 2px;
   border-radius: 5px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin: 12px;
-  color: #172c66;
+  color: #B49889;
   text-transform: uppercase;
   letter-spacing: 2;
   font-family: 'Lato', sans-serif;
@@ -265,9 +232,9 @@ li {
 }
 
 .contact__btn:hover {
-  background-color: #172c66;
-  border: #fef6e4 solid 2px;
-  color: #fef6e4;
+  background-color: #B49889;
+  border: #f9f5f1 solid 2px;
+  color: #f9f5f1;
 }
 
 #invia {
@@ -361,19 +328,14 @@ li {
 }
 
 .footer__left h2 {
-  color: #001858;
+  color: #433633;
   margin-bottom: 5%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 
 .footer__left a {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
   margin: 12px;
-  color: #001858;
+  margin-top: 24px;
+  color: #433633;
 }
 
 .footer__right {
@@ -393,19 +355,14 @@ li {
 }
 
 .footer__right h2 {
-  color: #001858;
+  color: #433633;
   margin-bottom: 5%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 
 .footer__right a {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
   margin: 12px;
-  color: #001858;
+  margin-top: 24px;
+  color: #433633;
 }
 
 .social__icon svg {
@@ -419,7 +376,7 @@ li {
 }
 
 .credits {
-  background: #172c66;
+  background: #B49889;
   padding: 24px;
   text-align: center;
 }
@@ -430,7 +387,7 @@ li {
 }
 
 .credits__content h6 {
-  color: #fef6e4;
+  color: #f9f5f1;
   letter-spacing: 1;
   font-weight: 400;
 }
@@ -450,16 +407,17 @@ li {
   }
   .footer__left {
     width: 100%;
+    min-height: 0;
   }
   .footer__right {
     width: 100%;
   }
   .footer__left a {
-    margin-top: 12px;
+    margin-top: 24px;
     margin-bottom: 12px;
   }
   .footer__right a {
-    margin-top: 12px;
+    margin-top: 24px;
     margin-bottom: 12px;
   }
 }
@@ -468,7 +426,7 @@ li {
 .gallery {
   overflow: hidden;
   margin-top: 7%;
-  background: #172c66;
+  background: #B49889;
 }
 
 .gallery__content {
@@ -484,7 +442,7 @@ li {
 }
 
 .gallery__title {
-  color: #fef6e4;
+  color: #f9f5f1;
   font-size: 99px;
 }
 
@@ -498,7 +456,7 @@ li {
   margin-left: 12px;
   margin-right: 12px;
   max-height: 500px;
-  outline: #001858 solid 3px;
+  outline: #433633 solid 3px;
 }
 
 .gallery__item__inner {
@@ -513,7 +471,7 @@ li {
      object-fit: cover;
   border-radius: 10px;
   z-index: 0;
-  outline: #001858 3px solid;
+  outline: #433633 3px solid;
 }
 
 /* Galleria tablet*/
@@ -543,8 +501,6 @@ li {
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-filter: brightness(0.8);
-          filter: brightness(0.8);
 }
 
 .hero__content {
@@ -565,10 +521,11 @@ li {
 
 .hero__text {
   max-width: 744px;
-  color: #fef6e4;
+  color: #f9f5f1;
   z-index: 1;
   padding: 12px;
   margin-top: 20%;
+  text-shadow: 2px 2px 2px #433633;
 }
 
 .bottoni {
@@ -580,21 +537,21 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 71vh;
+  margin-top: 72vh;
   z-index: 10;
 }
 
 .btn {
   cursor: pointer;
-  background-color: #172c66;
-  border: #fef6e4 solid 2px;
+  background-color: #B49889;
+  border: #f9f5f1 solid 2px;
   border-radius: 5px;
   padding: auto;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin: 12px;
-  color: #fef6e4;
+  color: #f9f5f1;
   text-transform: uppercase;
   letter-spacing: 2;
   font-family: 'Lato', sans-serif;
@@ -609,9 +566,9 @@ li {
 }
 
 .btn:hover {
-  background-color: #fef6e4;
-  border: #172c66 solid 2px;
-  color: #172c66;
+  background-color: #f9f5f1;
+  border: #B49889 solid 2px;
+  color: #B49889;
 }
 
 /* Hero tablet */
@@ -668,7 +625,7 @@ li {
 
 /* Mappa */
 .map {
-  background-color: #172c66;
+  background-color: #B49889;
   padding-top: 5%;
   width: 100%;
 }
@@ -685,7 +642,7 @@ li {
 }
 
 .map__title h2 {
-  color: #fef6e4;
+  color: #f9f5f1;
 }
 
 .map__inner iframe {
@@ -715,9 +672,9 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #172c66;
-  -webkit-box-shadow: 0px 0px 10px 1px #001858;
-          box-shadow: 0px 0px 10px 1px #001858;
+  background-color: #B49889;
+  -webkit-box-shadow: 0px 0px 10px 1px #433633;
+          box-shadow: 0px 0px 10px 1px #433633;
   padding: auto;
   z-index: 1000;
 }
@@ -742,7 +699,7 @@ nav {
 }
 
 .menu__logo__link {
-  color: #fef6e4;
+  color: #f9f5f1;
   text-transform: uppercase;
   text-align: left;
   font-weight: 700;
@@ -770,14 +727,10 @@ nav {
 }
 
 .menu__list__link {
-  color: #fef6e4;
+  color: #f9f5f1;
   cursor: pointer;
   -webkit-transition: ease-in-out 0.1s;
   transition: ease-in-out 0.1s;
-}
-
-.menu__list__link:hover {
-  color: #fff;
 }
 
 .hamburger {
@@ -806,8 +759,8 @@ nav {
             transition-duration: 0.6s;
     -webkit-transition-delay: 0.3s;
             transition-delay: 0.3s;
-    -webkit-box-shadow: 0px 0px 0px 0px #001858;
-            box-shadow: 0px 0px 0px 0px #001858;
+    -webkit-box-shadow: 0px 0px 0px 0px #433633;
+            box-shadow: 0px 0px 0px 0px #433633;
   }
   nav {
     display: block;
@@ -847,7 +800,7 @@ nav {
 /* Pacchetti */
 .pacchetti {
   overflow: hidden;
-  margin-top: 7%;
+  padding-top: 7%;
 }
 
 .pacchetti__content {
@@ -862,7 +815,7 @@ nav {
 }
 
 .pacchetti__title {
-  color: #001858;
+  color: #433633;
 }
 
 .pacchetti__cards {
@@ -884,7 +837,7 @@ nav {
 }
 
 .pacchetti__cards__item {
-  background: #172c66;
+  background: #B49889;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -906,13 +859,13 @@ nav {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  outline: #001858 solid 3px;
+  outline: #433633 solid 3px;
 }
 
 .pacchetti__cards__item:hover {
   -webkit-transform: scale(110%);
           transform: scale(110%);
-  background: #001858;
+  background: #644C40;
 }
 
 .pacchetti__cards__image {
@@ -924,7 +877,7 @@ nav {
           flex-grow: 1;
   border-radius: 10px 0 0 10px;
   max-width: 30%;
-  outline: #001858 solid 3px;
+  outline: #433633 solid 3px;
 }
 
 .pacchetti__cards__text {
@@ -937,13 +890,13 @@ nav {
 
 .pacchetti__cards__text h4 {
   text-align: center;
-  color: #fef6e4;
+  color: #f9f5f1;
   display: block;
 }
 
 .pacchetti__cards__text p {
   text-align: center;
-  color: #fef6e4;
+  color: #f9f5f1;
   margin-top: 15%;
 }
 
@@ -960,7 +913,7 @@ nav {
 
 .pacchetti__cards__text__list li {
   text-align: center;
-  color: #fef6e4;
+  color: #f9f5f1;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -1022,7 +975,7 @@ nav {
       -ms-flex-direction: row;
           flex-direction: row;
   margin: auto;
-  margin-top: 10%;
+  padding-top: 10%;
 }
 
 .poster__img {
@@ -1037,7 +990,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
-  border: #172c66 solid 3px;
+  border: #B49889 solid 3px;
 }
 
 .poster__text {
@@ -1050,13 +1003,17 @@ nav {
 }
 
 .poster__title {
-  color: #001858;
+  color: #433633;
   margin-bottom: 10%;
 }
 
 .poster__content {
   color: #0f0f0f;
   margin-bottom: 5%;
+}
+
+.poster_image_mobile {
+  display: none;
 }
 
 /* Poster tablet*/
@@ -1094,12 +1051,21 @@ nav {
     padding: 24px;
     margin: 0 0 5% 0;
   }
+  .poster_image_mobile {
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    outline: #B49889 solid 3px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
 }
 
 /* Servizi */
 .service {
   margin-top: 10%;
-  background: #172c66;
+  background: #B49889;
 }
 
 .service__content {
@@ -1114,7 +1080,7 @@ nav {
 }
 
 .service__title__text {
-  color: #fef6e4;
+  color: #f9f5f1;
   text-align: center;
   font-size: 72px;
 }
@@ -1135,7 +1101,7 @@ nav {
 
 .slider__item {
   border-radius: 10px;
-  background: #fef6e4;
+  background: #f9f5f1;
   margin-left: 12px;
   margin-right: 12px;
   max-height: 400px;
@@ -1158,7 +1124,7 @@ nav {
 }
 
 .slider__items__inner h4 {
-  color: #001858;
+  color: #433633;
   text-align: center;
   margin: 12px auto;
   z-index: 10;
@@ -1188,7 +1154,7 @@ nav {
   width: 100px;
   height: 100px;
   padding: 12px;
-  border: #172c66 solid;
+  border: #B49889 solid;
   color: rgba(0, 0, 0, 0);
   -webkit-transition: ease-in-out;
   transition: ease-in-out;
@@ -1306,10 +1272,10 @@ nav {
 }
 
 .carousel__image__title {
-  max-width: 100px;
+  max-width: 150px;
   text-align: center;
   margin: auto;
-  color: #fef6e4;
+  color: #f9f5f1;
 }
 
 /* Servizi CTA */
@@ -1339,15 +1305,15 @@ nav {
 
 .service__btn {
   cursor: pointer;
-  background-color: #172c66;
-  border: #fef6e4 solid 2px;
+  background-color: #B49889;
+  border: #f9f5f1 solid 2px;
   border-radius: 5px;
   padding: auto;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin: 12px;
-  color: #fef6e4;
+  color: #f9f5f1;
   text-transform: uppercase;
   letter-spacing: 2;
   font-family: 'Lato', sans-serif;
@@ -1363,9 +1329,9 @@ nav {
 }
 
 .service__btn:hover {
-  background-color: #fef6e4;
-  border: #172c66 solid 2px;
-  color: #172c66;
+  background-color: #f9f5f1;
+  border: #B49889 solid 2px;
+  color: #B49889;
 }
 
 /* Servizi tablet*/
@@ -1377,6 +1343,9 @@ nav {
   .slick-next {
     bottom: -5%;
     right: 10%;
+  }
+  .carousel__wrapper {
+    overflow: auto;
   }
 }
 

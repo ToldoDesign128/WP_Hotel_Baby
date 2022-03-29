@@ -49,6 +49,7 @@
 
             <p class="poster__content">In prestigiosa posizione centrale a Milano Marittima l’Hotel Baby si affaccia sul noto Viale 2 Giugno a pochi passi dalla spiaggia.</p>
             <p class="poster__content">La struttura medio piccola offre un ottimo confort per quei viaggiatori che vogliono godersi un soggiorno in puro stile romagnolo accompagnati dal piacere di sentirsi a proprio agio.</p>
+            <img src="<?php echo get_template_directory_uri(  )?>/img/hotel_baby01.JPG" alt="" class="poster_image_mobile">
             <p class="poster__content">La gestione è familiare e custodisce con passione questa struttura da ormai 20 anni. Il ristorante ubicato nella sala verandata al primo piano esprime un proprio concetto gastronomico romagnolo esaltando i sapori della tradizione e non solo.</p>
             <p class="poster__content">Il nostro hotel è il punto di partenza ideale per chi vuole scoprire Milano Marittima con la comodità e l’accoglienza che ti fanno sentire a casa.</p>
         

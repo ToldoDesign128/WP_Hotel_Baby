@@ -21,11 +21,10 @@
 .footer__left h2{
     color: $color-third;
     margin-bottom: 5%;
-    flex-grow: 1;
 }
 .footer__left a{
-    flex-grow: 1;
     margin: 12px;
+    margin-top: 24px;
     color: $color-third;
 }
 .footer__right{
@@ -39,11 +38,10 @@
 .footer__right h2{
     color: $color-third;
     margin-bottom: 5%;
-    flex-grow: 1;
 }
 .footer__right a{
-    flex-grow: 1;
     margin: 12px;
+    margin-top: 24px;
     color: $color-third;
 }
 .social__icon svg{
@@ -78,16 +76,17 @@
     }
     .footer__left{
         width: 100%;
+        min-height: 0;
     }
     .footer__right{
         width: 100%;
     }
     .footer__left a{
-        margin-top: 12px;
+        margin-top: 24px;
         margin-bottom: 12px;
     }
     .footer__right a{
-        margin-top: 12px;
+        margin-top: 24px;
         margin-bottom: 12px;
     }
 }

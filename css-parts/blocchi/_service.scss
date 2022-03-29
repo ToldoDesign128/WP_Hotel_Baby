@@ -91,8 +91,6 @@
     left: 25%;    
     background: url(img/icon/arrow_pre.png);
 }
-
-
   
 
 /* Icon Carousel */
@@ -150,7 +148,7 @@ align-items: center;
     width: 100%;
 }
 .carousel__image__title{
-    max-width: 100px;
+    max-width: 150px;
     text-align: center;
     margin: auto;
     color: $color-primary;
@@ -208,6 +206,9 @@ align-items: center;
     .slick-next{
         bottom: -5%;
         right: 10%;
+    }
+    .carousel__wrapper{
+        overflow: auto;
     }
 }
 /* Servizi mobile */
