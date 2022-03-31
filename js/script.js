@@ -1,3 +1,26 @@
+// My script
+
+
+    // Open Panel
+
+    jQuery('.hamburger').on('click', function() {
+        jQuery(".menu").toggleClass("menu--open");
+    });
+
+    jQuery('.menu__list__item').on('click', function() {
+        jQuery(".menu").removeClass("menu--open");
+        jQuery(".hamburger").removeClass("is-active");
+    });
+
+    var jQueryhamburger = jQuery(".hamburger");
+    jQueryhamburger.on("click", function(e) {
+        jQueryhamburger.toggleClass("is-active");
+    // Do something else, like open/close menu
+    });
+
+
+
+
 //Slick carousel
         
 jQuery(".slider").slick({
@@ -34,23 +57,4 @@ jQuery(".gallery__slider").slick({
     ]
 });
 
-
-// My script
-
-
-jQuery( document ).ready(function() {
-
-    // Open Panel
-
-    jQuery('.hamburger').on('click', function() {
-        jQuery(".menu").toggleClass("menu--open");
-    });
-
-});
-
-    var jQueryhamburger = jQuery(".hamburger");
-    jQueryhamburger.on("click", function(e) {
-        jQueryhamburger.toggleClass("is-active");
-    // Do something else, like open/close menu
-    });
 
