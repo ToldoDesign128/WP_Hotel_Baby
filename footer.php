@@ -7,7 +7,7 @@
 
                 <h2> Hotel Baby </h2>
                 <a href="https://www.google.it/maps/place/Hotel+Baby/@44.2738988,12.352051,18.94z/data=!4m16!1m7!3m6!1s0x132cb47358078b7f:0x1cc712f102a89ddf!2sViale+Due+Giugno,+53,+48015+Cervia+RA!3b1!8m2!3d44.2737512!4d12.3521595!3m7!1s0x132cb473596c5cdb:0x632f586f981abad1!5m2!4m1!1i2!8m2!3d44.2737512!4d12.3521595" class="footer__adress">
-                    <h6> Viale Italia 167- Pinarella di cervia (RA) </h6>
+                    <h6> Viale Due Giugno, 53, 48015 Milano Marittima (RA) </h6>
                 </a>
                 <a href="#" class="footer__cookie">
                     <h6> Privacy & Cookie </h6>

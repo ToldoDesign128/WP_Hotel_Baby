@@ -386,12 +386,6 @@
 
             <div class="gallery__item">   
                 <div class="gallery__items__inner">
-                    <img src=" <?php echo get_template_directory_uri(  )?>/img/galleria/foto (14).jpg" alt="Colazione">
-                </div>
-            </div> 
-
-            <div class="gallery__item">   
-                <div class="gallery__items__inner">
                     <img src=" <?php echo get_template_directory_uri(  )?>/img/galleria/foto (15).jpg" alt="Animali">
                 </div>
             </div> 
@@ -441,15 +435,11 @@
 
                 <h3 class="contact__title"> Hai delle domande? </h3>
 
-                <form action="">
+                <div class="contact__form">
 
-                    <input type="text" placeholder="Nome" class="contact__input" id="input__1">
-                    <input type="email" placeholder="Email" class="contact__input" id="input__2">
-                    <input type="text" placeholder="Messaggio" class="contact__input" id="input__3">
+                    <?php echo apply_shortcodes( '[contact-form-7 id="16" title="Form di contatto"]' ); ?>
 
-                    <button id="invia" class="contact__btn"> Invia </button>
-
-                </form>
+                </div>
 
             </div>
 
