@@ -246,6 +246,12 @@
     
                 </div>
 
+                <div class="offerta">
+
+                    <h4 class="offerta__text"> Da oggi puoi acquistare la tua vacanza in comode rate, senza pagare nessun costo di interesse! </h4>
+
+                </div>
+
             </section>
 
         </div>

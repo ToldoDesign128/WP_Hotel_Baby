@@ -56,5 +56,3 @@ jQuery(".gallery__slider").slick({
         }
     ]
 });
-
-

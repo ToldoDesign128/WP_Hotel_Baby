@@ -1365,6 +1365,14 @@ nav {
   color: #B49889;
 }
 
+.offerta {
+  color: #f9f5f1;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+}
+
 /* Servizi tablet*/
 @media (max-width: 960px) {
   .slick-prev {
