@@ -15,14 +15,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 10px;
-    border: $color-secondary solid 3px;
+    border-radius: 0px;
+    border: $color-secondary solid 0px;
 }
 .poster__text{
     max-width: 40%;
     flex-grow: 1;
     margin-left: 10%;
-    padding: 12px;
+    padding: 0px;
 }
 .poster__title{
     color: $color-third;
@@ -72,7 +72,7 @@
         display: block;
         margin-top: 24px;
         margin-bottom: 24px;
-        border-radius: 10px;
+        border-radius: 0px;
         outline: $color-secondary solid 3px;
         object-fit: contain;
     }

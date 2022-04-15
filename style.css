@@ -17,7 +17,7 @@ Custom theme for Hotel Baby
 html, body {
   margin: 0;
   overflow-x: hidden;
-  background-color: #f9f5f1;
+  background-color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6, p, li, ul, a {
@@ -189,7 +189,7 @@ label {
 .wpcf7 input, textarea {
   width: 100%;
   height: 75px;
-  border-radius: 10px;
+  border-radius: 0px;
   margin: 12px;
   padding: 12px;
 }
@@ -231,9 +231,9 @@ label {
 
 .contact__btn, .wpcf7-submit {
   cursor: pointer;
-  background-color: #f9f5f1;
+  background-color: #ffffff;
   border: #B49889 solid 2px;
-  border-radius: 5px;
+  border-radius: 0px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -256,8 +256,8 @@ label {
 .wpcf7-submit:hover,
 .contact__btn:hover {
   background-color: #B49889;
-  border: #f9f5f1 solid 2px;
-  color: #f9f5f1;
+  border: #ffffff solid 2px;
+  color: #ffffff;
 }
 
 .wpcf7-submit {
@@ -418,7 +418,7 @@ label {
 }
 
 .credits__content h6 {
-  color: #f9f5f1;
+  color: #ffffff;
   letter-spacing: 1;
   font-weight: 400;
 }
@@ -473,7 +473,7 @@ label {
 }
 
 .gallery__title {
-  color: #f9f5f1;
+  color: #ffffff;
   font-size: 99px;
 }
 
@@ -483,11 +483,11 @@ label {
 }
 
 .gallery__item {
-  border-radius: 10px;
+  border-radius: 0px;
   margin-left: 12px;
   margin-right: 12px;
   max-height: 500px;
-  outline: #433633 solid 3px;
+  outline: #433633 solid 0px;
 }
 
 .gallery__item__inner {
@@ -500,9 +500,9 @@ label {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 10px;
+  border-radius: 0px;
   z-index: 0;
-  outline: #433633 3px solid;
+  outline: #433633 0px solid;
 }
 
 /* Galleria tablet*/
@@ -552,7 +552,7 @@ label {
 
 .hero__text {
   max-width: 744px;
-  color: #f9f5f1;
+  color: #ffffff;
   z-index: 1;
   padding: 12px;
   margin-top: 20%;
@@ -575,14 +575,14 @@ label {
 .btn {
   cursor: pointer;
   background-color: #B49889;
-  border: #f9f5f1 solid 2px;
-  border-radius: 5px;
+  border: #B49889 solid 2px;
+  border-radius: 0px;
   padding: auto;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin: 12px;
-  color: #f9f5f1;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 2;
   font-family: 'Lato', sans-serif;
@@ -597,9 +597,9 @@ label {
 }
 
 .btn:hover {
-  background-color: #f9f5f1;
+  background-color: #B49889;
   border: #B49889 solid 2px;
-  color: #B49889;
+  color: #644C40;
 }
 
 /* Hero tablet */
@@ -673,7 +673,7 @@ label {
 }
 
 .map__title h2 {
-  color: #f9f5f1;
+  color: #ffffff;
 }
 
 .map__inner iframe {
@@ -730,7 +730,7 @@ nav {
 }
 
 .menu__logo__link {
-  color: #f9f5f1;
+  color: #ffffff;
   text-transform: uppercase;
   text-align: left;
   font-weight: 700;
@@ -758,10 +758,15 @@ nav {
 }
 
 .menu__list__link {
-  color: #f9f5f1;
+  color: #0f0f0f;
   cursor: pointer;
   -webkit-transition: ease-in-out 0.1s;
   transition: ease-in-out 0.1s;
+  font-weight: 500;
+}
+
+.menu__list__link:hover {
+  color: #ffffff;
 }
 
 .hamburger {
@@ -874,7 +879,7 @@ nav {
           flex-grow: 1;
   height: 400px;
   width: 400px;
-  border-radius: 10px;
+  border-radius: 0px;
   margin: 24px;
   -webkit-transition: ease-in-out;
   transition: ease-in-out;
@@ -890,13 +895,25 @@ nav {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  outline: #433633 solid 3px;
+  outline: #433633 solid 0px;
 }
 
 .pacchetti__cards__item:hover {
   -webkit-transform: scale(110%);
           transform: scale(110%);
-  background: #644C40;
+  background: #ffffff;
+}
+
+.pacchetti__cards__item:hover p {
+  color: #644C40;
+}
+
+.pacchetti__cards__item:hover li {
+  color: #644C40;
+}
+
+.pacchetti__cards__item:hover h4 {
+  color: #644C40;
 }
 
 .pacchetti__cards__image {
@@ -906,9 +923,9 @@ nav {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  border-radius: 10px 0 0 10px;
+  border-radius: 0px;
   max-width: 30%;
-  outline: #433633 solid 3px;
+  outline: #433633 solid 0px;
 }
 
 .pacchetti__cards__text {
@@ -921,13 +938,13 @@ nav {
 
 .pacchetti__cards__text h4 {
   text-align: center;
-  color: #f9f5f1;
+  color: #ffffff;
   display: block;
 }
 
 .pacchetti__cards__text p {
   text-align: center;
-  color: #f9f5f1;
+  color: #ffffff;
   margin-top: 15%;
 }
 
@@ -944,7 +961,7 @@ nav {
 
 .pacchetti__cards__text__list li {
   text-align: center;
-  color: #f9f5f1;
+  color: #ffffff;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -965,7 +982,7 @@ nav {
   .pacchetti__cards__image {
     max-width: 100%;
     max-height: 200px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0px;
     -o-object-position: center;
        object-position: center;
   }
@@ -986,7 +1003,7 @@ nav {
   .pacchetti__cards__image {
     max-width: 100%;
     max-height: 200px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0px;
     -o-object-position: center;
        object-position: center;
   }
@@ -1020,8 +1037,8 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10px;
-  border: #B49889 solid 3px;
+  border-radius: 0px;
+  border: #B49889 solid 0px;
 }
 
 .poster__text {
@@ -1030,7 +1047,7 @@ nav {
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin-left: 10%;
-  padding: 12px;
+  padding: 0px;
 }
 
 .poster__title {
@@ -1086,7 +1103,7 @@ nav {
     display: block;
     margin-top: 24px;
     margin-bottom: 24px;
-    border-radius: 10px;
+    border-radius: 0px;
     outline: #B49889 solid 3px;
     -o-object-fit: contain;
        object-fit: contain;
@@ -1111,7 +1128,7 @@ nav {
 }
 
 .service__title__text {
-  color: #f9f5f1;
+  color: #ffffff;
   text-align: center;
   font-size: 72px;
 }
@@ -1131,12 +1148,12 @@ nav {
 }
 
 .slider__item {
-  border-radius: 10px;
-  background: #f9f5f1;
+  border-radius: 0px;
+  background: #B49889;
   margin-left: 12px;
   margin-right: 12px;
   max-height: 400px;
-  outline: #333333 solid 3px;
+  outline: #333333 solid 0px;
 }
 
 .slider__item__inner {
@@ -1149,9 +1166,9 @@ nav {
   height: 83%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 10px 10px 0 0;
+  border-radius: 0px;
   z-index: 0;
-  outline: #333333 3px solid;
+  outline: #333333 0px solid;
 }
 
 .slider__items__inner h4 {
@@ -1160,6 +1177,12 @@ nav {
   margin: 12px auto;
   z-index: 10;
   width: 100%;
+}
+
+.slider__items__title {
+  font-family: 'lato',sans-serif;
+  font-size: 30;
+  color: #ffffff !important;
 }
 
 /* Slider effect */
@@ -1185,7 +1208,7 @@ nav {
   width: 100px;
   height: 100px;
   padding: 12px;
-  border: #433633 solid 2px;
+  border: #433633 solid 0px;
   color: rgba(0, 0, 0, 0);
   -webkit-transition: ease-in-out;
   transition: ease-in-out;
@@ -1286,6 +1309,7 @@ nav {
   background-repeat: no-repeat;
   height: 50%;
   margin: auto;
+  margin-bottom: 0px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1306,7 +1330,8 @@ nav {
   max-width: 150px;
   text-align: center;
   margin: auto;
-  color: #f9f5f1;
+  margin-top: 0%;
+  color: #ffffff;
 }
 
 /* Servizi CTA */
@@ -1337,14 +1362,14 @@ nav {
 .service__btn {
   cursor: pointer;
   background-color: #B49889;
-  border: #f9f5f1 solid 2px;
-  border-radius: 5px;
+  border: #ffffff solid 2px;
+  border-radius: 0px;
   padding: auto;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin: 12px;
-  color: #f9f5f1;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 2;
   font-family: 'Lato', sans-serif;
@@ -1360,13 +1385,13 @@ nav {
 }
 
 .service__btn:hover {
-  background-color: #f9f5f1;
-  border: #B49889 solid 2px;
+  background-color: #ffffff;
+  border: #B49889 solid 0px;
   color: #B49889;
 }
 
 .offerta {
-  color: #f9f5f1;
+  color: #ffffff;
   max-width: 60%;
   margin: auto;
   margin-top: 5%;
@@ -1395,6 +1420,7 @@ nav {
   }
   .service__title__text {
     font-size: 48px;
+    font-family: 'Lato',sans-serif;
   }
   .item.slick-slide {
     width: 360px !important;

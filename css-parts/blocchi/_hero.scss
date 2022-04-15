@@ -34,15 +34,15 @@
 .bottoni{
     max-width: 372px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     margin-top: 72vh;
     z-index: 10;
 }
 .btn{
     cursor: pointer;
     background-color: $color-secondary;
-    border: $color-primary solid 2px;
-    border-radius: 5px;
+    border: $color-secondary solid 2px;
+    border-radius: 0px;
     padding: auto;
     flex-grow: 1;
     margin: 12px;
@@ -58,9 +58,9 @@
     min-height: 75px;
 }
 .btn:hover {
-    background-color: $color-primary;
+    background-color: $color-secondary;
     border: $color-secondary solid 2px;
-    color: $color-secondary;
+    color: $color-secondary-hover;
 }
 
 /* Hero tablet */
